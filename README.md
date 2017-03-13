@@ -38,11 +38,11 @@ module.exports = {
 
 ```
 ##技术栈
-[koa](http://koajs.com/)
-[koa-router](https://github.com/alexmingoia/koa-router)
-[vue](http://cn.vuejs.org/)
-[vue-router](https://router.vuejs.org/)
-[axios](https://github.com/mzabriskie/axios)
+-[koa](http://koajs.com/)
+-[koa-router](https://github.com/alexmingoia/koa-router)
+-[vue](http://cn.vuejs.org/)
+-[vue-router](https://router.vuejs.org/)
+-[axios](https://github.com/mzabriskie/axios)
 ##单个图片上传页面，上传后显示图片预览
 ![image](./images/localhost.png)
 
