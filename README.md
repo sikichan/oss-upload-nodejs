@@ -1,6 +1,9 @@
 # oss-upload-nodejs
+## 单个图片上传页面，上传后显示图片预览
+![image](./images/localhost.png)
+
 ## 阿里云OSS服务端签名后直传
-我们知道，采用JS客户端直接签名，OSSAccessId和AccessKeySecret暴露在前端页面，可以被轻易获取，存在严重安全隐患。
+我们都知道，采用JS客户端直接签名，OSSAccessId和AccessKeySecret暴露在前端页面，可以被轻易获取，存在严重安全隐患。
 这里提供了一种使用阿里云OSS服务器端签名后直传，避免这种危险的方法。由于阿里云OSS开发文档只提供了Java，PHP，Python和Go语言的例子，本Demo在此提供一个以Node.js作为后端的例子，供大家参考。
 ***
 ### 请求逻辑：
@@ -43,8 +46,5 @@ module.exports = {
 - [vue](http://cn.vuejs.org/)
 - [vue-router](https://router.vuejs.org/)
 - [axios](https://github.com/mzabriskie/axios)
-
-## 单个图片上传页面，上传后显示图片预览
-![image](./images/localhost.png)
 
 ## 欢迎Start，欢迎Pull Requests
