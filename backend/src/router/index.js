@@ -4,7 +4,7 @@ const config = require('../config')
 const crypto = require('crypto')
 
 router.get('/policy', async (ctx) => {
-  const dirPath = 'testOSS/'
+  const dirPath = 'testOSS/' // 上传后例子：http://cqq.oss-cn-shenzhen.aliyuncs.com/testOSS/1489388301901，若为空，上传的文件则放到object的根目录
   const {OSSAccessKeyId, host, secret} = config.app.oss
   let end = new Date().getTime() + 300000
   let expiration = new Date(end).toISOString()
