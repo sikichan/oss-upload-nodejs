@@ -15,9 +15,9 @@ chrome, firefox浏览器，其他主流浏览器还未全面测试
 1. 进入阿里云管理控制台 --> 对象存储OSS
 2. 新建Bucket
 3. Bucket属性 --> 跨域设置：
-来源|Method|Allow Header|Expose Header|缓存时间
-:---:|:---:|:---:|:---:|:---:
-* |GET,POST|* | |600
+来源 | Method | Allow Header | Expose Header | 缓存时间
+:---: | :---: | :---: | :---: | :---:
+* | GET,POST | * | | 600
 :---:|:---:|:---:|:---:|:---:
 ###查看自己的AccessKey
 ![image](./images/accesskey.png)
@@ -38,11 +38,11 @@ module.exports = {
 
 ```
 ##技术栈
--[koa](http://koajs.com/)
--[koa-router](https://github.com/alexmingoia/koa-router)
--[vue](http://cn.vuejs.org/)
--[vue-router](https://router.vuejs.org/)
--[axios](https://github.com/mzabriskie/axios)
+- [koa](http://koajs.com/)
+- [koa-router](https://github.com/alexmingoia/koa-router)
+- [vue](http://cn.vuejs.org/)
+- [vue-router](https://router.vuejs.org/)
+- [axios](https://github.com/mzabriskie/axios)
 ##单个图片上传页面，上传后显示图片预览
 ![image](./images/localhost.png)
 
