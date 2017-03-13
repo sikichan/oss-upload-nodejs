@@ -1,6 +1,7 @@
 # oss-upload-nodejs
 ## 阿里云OSS服务端签名后直传
-由于采用JS客户端直接签名严重的安全隐患，OSSAccessId和AccessKeySecret暴露在前端页面，可以随意被拿到因此不安全。由于阿里云OSS开发文档只提供了Java，PHP，Python和Go语言的例子，因此本Demo提供一个以Node.js作为后端的例子。
+我们知道，采用JS客户端直接签名，OSSAccessId和AccessKeySecret暴露在前端页面，可以被轻易获取，存在严重安全隐患。
+这里提供了一种使用阿里云OSS服务器端签名后直传，避免这种危险的方法。由于阿里云OSS开发文档只提供了Java，PHP，Python和Go语言的例子，本Demo在此提供一个以Node.js作为后端的例子，供大家参考。
 ***
 ### 请求逻辑：
 1. 客户端要上传图片时，到应用服务器取上传的policy及签名(signature)
@@ -8,8 +9,8 @@
 3. 客户端拿到了签名后，直接上传到OSS
 
 ### 目前支持
-chrome, firefox浏览器，其他主流浏览器还未全面测试
-文件上传进度
+chrome, firefox浏览器，其他浏览器还未全面测试，欢迎大家测试后在Issues里反馈。
+
 ## 使用
 ### 配置OSS
 1. 进入阿里云管理控制台 --> 对象存储OSS
@@ -46,4 +47,4 @@ module.exports = {
 ## 单个图片上传页面，上传后显示图片预览
 ![image](./images/localhost.png)
 
-
+## 欢迎Start，欢迎Pull Requests
