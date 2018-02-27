@@ -1,4 +1,20 @@
 # oss-upload-nodejs
+基于node.js和oss的单文件上传Demo。
+**如何运行这个Demo？**
+- 后端：backend目录
+
+```
+npm install
+npm start
+```
+
+- 前端：webfront目录
+
+```
+npm install
+npm run dev
+```
+
 ## 单个图片上传页面，上传后显示图片预览
 ![image](./images/localhost.png)
 
